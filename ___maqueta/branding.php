@@ -1,10 +1,10 @@
 <section class="p_interno">
   <div class="position-relative">
     <div class="padding_sections">
-      <div class="bg-gray-light pb-5">
+      <div class="bg-gray-light pb-2">
         <div class="pb-5">
           <!-- hero -->
-          <div class="container_page px-0 pb-5">
+          <div class="container_page px-0">
             <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-5">
               <div class="row position-relative z-10 px-3 pt-lg-5 pt-2">
                 <div class="col-xl-7 px-2 pt-lg-5 pt-4 info_estrategia_top">
@@ -313,7 +313,7 @@
         </div>
         <div class="c_slider_our mt-4">
           <div class="slider_our">
-            
+
               <div class="to_view to_viewReset">
                 <a href="javascript:;" class="c_card">
                   <img src="_/images/slider1.png" alt="">
@@ -373,7 +373,7 @@
                   </p>
                 </a>
               </div>
-            
+
           </div>
         </div>
       </div>

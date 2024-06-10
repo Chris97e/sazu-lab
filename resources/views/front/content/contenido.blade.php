@@ -13,10 +13,10 @@ $showFooter = true;
 <section class="p_interno">
   <div class="position-relative">
     <div class="padding_sections">
-      <div class="bg-gray-light pb-5">
+      <div class="bg-gray-light pb-2">
         <div class="pb-5">
           <!-- hero -->
-          <div class="container_page px-0 pb-5">
+          <div class="container_page px-0">
             <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-5">
               <div class="row position-relative z-10 px-3 pt-lg-5 pt-2">
                 <div class="col-xl-7 px-2 pt-lg-5 pt-4 info_estrategia_top">
@@ -27,7 +27,7 @@ $showFooter = true;
                         sostenible.</i></strong></h2> --}}
                   {!!$texto_superior!!}
                 </div>
-                <!-- <div class="col-xl-5 pt-lg-5 pt-4 px-2"> 
+                <!-- <div class="col-xl-5 pt-lg-5 pt-4 px-2">
                   <div class="ani__move_y_05 ani__infinite ani__duration-3s ani__alternate z-1 pb-lg-5 pb-4">
                     <h4><strong style="color:#5B4CFF;">“El mejor día de mi vida,</strong><br> fue cuando conocí a Sazú”.</h3>
                   </div>
@@ -82,7 +82,7 @@ $showFooter = true;
                 <iframe width="552" height="982" src="https://www.youtube.com/embed/poKxWOP3vnE" title="Porkcolombia"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe> 
+                  allowfullscreen></iframe>
               </div>--}}
               {!!$video!!}
             </div>
@@ -101,7 +101,7 @@ $showFooter = true;
                 <p><i>para redes sociales que llega donde tiene que llegar</i></p>
               </div> -->
               <h6 class="to_viewleft to_viewReset">Comerciales</h6>
-              <h6 class="to_viewleft to_viewReset">Casos de éxito</h6> 
+              <h6 class="to_viewleft to_viewReset">Casos de éxito</h6>
               {{-- <div class="c_video">
                 <iframe width="552" height="982" src="https://www.youtube.com/embed/XC5BA7xAzQk"
                   title="YouTube video player" frameborder="0"
