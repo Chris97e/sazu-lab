@@ -152,7 +152,7 @@ Route::middleware('verify.cms.login')->prefix('cms')->name('cms.')->group(functi
 
 // Routes for frontend
 Route::any('/', [HomeController::class, 'index'])->name('home');
-Route::any('/contenido', [ContenidoController::class, 'index'])->name('contenido');
+Route::any('/estudio-creativo', [ContenidoController::class, 'index'])->name('estudio-creativo');
 Route::any('/estrategia', [EstrategiaController::class, 'index'])->name('estrategia');
 Route::any('/branding', [BrandingController::class, 'index'])->name('branding');
 Route::any('/identidad-visual', [BrandingController::class, 'index'])->name('identidad-visual');

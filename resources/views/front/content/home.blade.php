@@ -36,7 +36,7 @@
                 <div class="m_home">
                   <ul>
                     <li><a href="{{ url('/estrategia') }}">ESTRATEGIA</a></li>
-                    <li><a href="{{ url('/contenido') }}">CONTENIDO</a></li>
+                    <li><a href="{{ url('/estudio-creativo') }}">ESTUDIO CREATIVO</a></li>
                     <li><a href="{{ url('/branding') }}">BRANDING</a></li>
                   </ul>
                 </div>

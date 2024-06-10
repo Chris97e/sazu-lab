@@ -40,7 +40,7 @@
           <h5>SERVICIOS</h5>
           <ul>
             <li><a href="{{ url('/estrategia') }}">Estrategia</a></li>
-            <li><a href="{{ url('/contenido') }}">Contenidos</a></li>
+            <li><a href="{{ url('/estudio-creativo') }}">Estudio Creativo</a></li>
             <li><a href="{{ url('/branding') }}">Identidad Visual</a></li>
           </ul>
         </div>

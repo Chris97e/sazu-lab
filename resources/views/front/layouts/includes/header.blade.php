@@ -26,13 +26,13 @@
       <ul>
         <li><a href="{{ url('/') }}">INICIO</a>  </li>
         <li><a href="{{ url('/estrategia') }}">ESTRATEGIA</a></li>
-        <li><a href="{{ url('/contenido') }}">CONTENIDO</a></li>
+        <li><a href="{{ url('/estudio-creativo') }}">ESTUDIO CREATIVO</a></li>
         <li><a href="{{ url('/branding') }}">BRANDING</a></li>
-        <li><a href="{{ url('/contacto') }}">CONTÁCTANOS</a></li>  
+        <li><a href="{{ url('/contacto') }}">CONTÁCTANOS</a></li>
       </ul>
-      
+
     </nav>
-   
+
   </div>
 
 </header>
