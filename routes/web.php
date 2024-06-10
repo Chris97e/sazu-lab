@@ -157,9 +157,6 @@ Route::any('/estrategia', [EstrategiaController::class, 'index'])->name('estrate
 Route::any('/branding', [BrandingController::class, 'index'])->name('branding');
 Route::any('/identidad-visual', [BrandingController::class, 'index'])->name('identidad-visual');
 Route::any('/contacto', [ContactoController::class, 'index'])->name('contacto');
-/* Route::get('/case-scotiabank', function () {
-  return view('front.content.detalle', Controller::getDataBase());
-}); */
 Route::any('/gracias', [FrontBaseController::class, 'index']);
 
 // All cases
