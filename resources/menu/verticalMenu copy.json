@@ -1,0 +1,115 @@
+{
+    "menu": [{
+            "menuHeader": "Accesos rápidos"
+        },
+        {
+            "name": "Dashboard CMS",
+            "icon": "menu-icon tf-icons bx bx-bar-chart-alt-2",
+            "slug": "cms.inicio",
+            "url": "/cms/inicio"
+        },
+        {
+            "name": "Pagina principal",
+            "icon": "menu-icon tf-icons bx bx-home-heart",
+            "slug": "",
+            "target": "_blank",
+            "url": "/"
+        },
+        {
+            "menuHeader": "Usuarios"
+        },
+        {
+            "name": "Usuarios",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.usuarios",
+            "url": "/cms/usuarios"
+        },
+        {
+            "name": "Equipo",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.equipo",
+            "url": "/cms/equipo"
+        },
+        {
+            "menuHeader": "Configuración"
+        },
+        {
+            "name": "Sliders",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.sliders",
+            "url": "/cms/slider"
+        },
+        {
+            "name": "Tarjetas",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.card",
+            "url": "/cms/card"
+        },
+
+        {
+            "name": "Imagenes",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.imagen",
+            "url": "/cms/imagen"
+        },
+
+        {
+            "name": "Correos Enviados",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.enviado",
+            "url": "/cms/enviado"
+        },
+        {
+            "name": "Parametros",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.parametro",
+            "url": "/cms/parametro"
+        },
+        {
+            "name": "Textos",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.textos",
+            "url": "/cms/textos"
+        },
+        {
+            "name": "Frutas",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.frutas",
+            "url": "/cms/frutas"
+        },
+        {
+            "menuHeader": "Zona Branding"
+        },
+        {
+            "name": "Proceso Branding",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.procesobrand",
+            "url": "/cms/procesobrand"
+        },
+        {
+            "name": "Imagenes Branding",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.imagenbrand",
+            "url": "/cms/imagenbrand"
+        },
+        {
+            "menuHeader": "Redes Sociales"
+        },
+        {
+            "name": "Redes Sociales",
+            "icon": "menu-icon tf-icons bx bx-group",
+            "slug": "cms.red",
+            "url": "/cms/red"
+        },
+        {
+            "menuHeader": "Salida segura"
+        },
+        {
+            "name": "Cerrar sesión",
+            "class": "btn btn-outline-info",
+            "icon": "menu-icon tf-icons bx bx-power-off",
+            "slug": "layouts",
+            "url": "/cms/logout"
+        }
+    ]
+}

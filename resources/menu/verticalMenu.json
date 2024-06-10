@@ -1,0 +1,144 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Accesos rápidos"
+    },
+    {
+      "name": "Dashboard CMS",
+      "icon": "menu-icon tf-icons bx bx-bar-chart-alt-2",
+      "slug": "cms.inicio",
+      "url": "/cms/inicio"
+    },
+    {
+      "name": "Pagina principal",
+      "icon": "menu-icon tf-icons bx bx-home-heart",
+      "slug": "",
+      "target": "_blank",
+      "url": "/"
+    },
+    {
+      "name": "Usuarios",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.usuarios",
+      "url": "/cms/usuarios"
+    },
+    {
+      "menuHeader": "Home"
+    },
+    {
+      "name": "Textos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.textos_ubica",
+      "url": "/cms/textos_ubica/home"
+    },
+    {
+      "name": "Trabajo",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.cards",
+      "url": "/cms/cards"
+    },
+    {
+      "name": "Clientes",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.clientes",
+      "url": "/cms/clientes"
+    },
+    {
+      "name": "Equipo",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.equipo",
+      "url": "/cms/equipo"
+    },
+    {
+      "menuHeader": "Zona Estrategia"
+    },
+    {
+      "name": "Textos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.textos_ubica",
+      "url": "/cms/textos_ubica/estrategia"
+    },
+    {
+      "name": "Contenidos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.contenidos",
+      "url": "/cms/contenidos/3"
+    },
+    {
+      "menuHeader": "Zona Contenido"
+    },
+    {
+      "name": "Textos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.textos_ubica",
+      "url": "/cms/textos_ubica/contenido"
+    }, 
+    {
+      "name": "Contenidos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.contenidos",
+      "url": "/cms/contenidos/5"
+    },
+    {
+      "name": "Imágenes",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.imagen",
+      "url": "/cms/imagen/contenidos"
+    },
+    {
+      "menuHeader": "Zona Branding"
+    },
+    {
+      "name": "Textos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.textos_ubica",
+      "url": "/cms/textos_ubica/branding"
+    },
+    {
+      "name": "Contenidos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.contenidos",
+      "url": "/cms/contenidos/4"
+    },
+    {
+      "name": "Destacados",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.imagenes_branding",
+      "url": "/cms/imagenes_branding"
+    },
+    {
+      "menuHeader": "Redes Sociales"
+    },
+    {
+      "name": "Redes Sociales",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.red",
+      "url": "/cms/red"
+    },
+    {
+      "name": "Textos contactos",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.textos_ubica",
+      "url": "/cms/textos_ubica/contacto"
+    },
+    {
+      "menuHeader": "Configuración"
+    },
+    {
+      "name": "Correo electrónico",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "slug": "cms.parametro",
+      "url": "/cms/parametro"
+    },
+    {
+      "menuHeader": "Salida segura"
+    },
+    {
+      "name": "Cerrar sesión",
+      "class": "btn btn-outline-info",
+      "icon": "menu-icon tf-icons bx bx-power-off",
+      "slug": "layouts",
+      "url": "/cms/logout"
+    }
+  ]
+}
