@@ -5,14 +5,14 @@
         <h1><a href="{{ url('/') }}"><img src="{{ asset('assets/front/images/logo.svg') }}" alt="Sazulab"></a></h1>
         <div>
           <div class="d-flex icons_header">
-            <a href="{{ url('/contacto') }}" class="ico1">
-              <img src="{{ asset('assets/front/images/ico1.svg') }}" alt="Sazulab">
+            <a href="https://maps.app.goo.gl/5wQVk2Zrwx5bwgeL6" target="_blank" class="ico1">
+              <img src="{{ asset('assets/front/images/ico1.svg') }}" alt="Mapa">
             </a>
-            <a href="{{ url('/contacto') }}" class="ico2">
-              <img src="{{ asset('assets/front/images/ico2.svg') }}" alt="Sazulab">
+            <a href="tel:3006568714" class="ico2">
+              <img src="{{ asset('assets/front/images/ico2.svg') }}" alt="Teléfono">
             </a>
-            <a href="{{ url('/contacto') }}" class="ico3">
-              <img src="{{ asset('assets/front/images/ico3.svg') }}" alt="Sazulab">
+            <a href="mailto:mariana@sazulab.com" class="ico3">
+              <img src="{{ asset('assets/front/images/ico3.svg') }}" alt="Mail">
             </a>
           </div>
         </div>
