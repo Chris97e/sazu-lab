@@ -69,100 +69,54 @@ $showFooter = true;
   <div class="">
     <div class="padding_sections">
       <div class="bg-gray-light position-relative container_page px-0 mx-auto pb-lg-5">
-        <div class="tit_h2 to_viewleft to_viewReset cifrass">
-          {{-- <h2 class="mb-0"><i>Videos</i></h2>
-          <p>que emocionan, enganchan <br> y ¡llevan a la acción!</p> --}}
-          {!!$vid1!!}
-        </div>
         <div class="c_videos_content">
-          <div class="c_videos">
-            <div class="v1 video">
-              <h6 class="to_viewleft to_viewReset">Storytelling</h6>
-              {{-- <div class="c_video">
-                <iframe width="552" height="982" src="https://www.youtube.com/embed/poKxWOP3vnE" title="Porkcolombia"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>--}}
-              {!!$video!!}
-            </div>
-            <div class="v2 video">
-              {{-- <div class="c_video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mX0oY4Ewcv0"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div> --}}
-              {!!$video2!!}
-            </div>
-            <div class="v3 video">
-              <!-- <div class="to_viewleft to_viewReset tit1">
-                <h2 class="font-weight-bold font-italic mb-0">Contenido</h2>
-                <p><i>para redes sociales que llega donde tiene que llegar</i></p>
-              </div> -->
-              <h6 class="to_viewleft to_viewReset">Comerciales</h6>
-              <h6 class="to_viewleft to_viewReset">Casos de éxito</h6>
-              {{-- <div class="c_video">
-                <iframe width="552" height="982" src="https://www.youtube.com/embed/XC5BA7xAzQk"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div> --}}
-              {!!$video3!!}
-            </div>
-            <div class="v4 video">
-              <h6 class="to_viewleft to_viewReset">Animación</h6>
-              <h6 class="to_viewleft to_viewReset">Producción</h6>
-              {{-- <div class="c_video">
-                <iframe width="552" height="982" src="https://www.youtube.com/embed/njM_Rs-DAMs"
-                  title="DEUNA I Checkout" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div> --}}
-              {!!$video4!!}
-            </div>
-            <div class="v5 video">
-              {{-- <div class="c_video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZiUZ5fkuVkY"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div> --}}
-              {!!$video5!!}
-            </div>
-            <div class="v6 video">
-              {{-- <div class="c_video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2kYFq7ciOd8"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div> --}}
-              {!!$video6!!}
-            </div>
-          </div>
-        </div>
-
-        <div class="cifrass">
-          <div class="c1 to_viewleft to_viewReset">
-            {{-- <h2>Guiones</h2>
-            <p>que le dan vida a la ideas</p> --}}
-            {!!$vid2!!}
-          </div>
-          <div class="c4 to_viewleft to_viewReset">
-            {{-- <h2>Contenido</h2>
-            <p>para redes sociales que llega donde tiene que llegar</p> --}}
-            {!!$vid3!!}
-          </div>
-          <div class="c2 to_viewleft to_viewReset">
-            {{-- <h2>Documentales</h2>
-            <p>que despiertan emociones</p> --}}
-            {!!$vid4!!}
-          </div>
-          <div class="c3 to_viewleft to_viewReset">
-            {{-- <h2>Mensajes</h2>
-            <p>poderosos que tocan fibras y son efectivos</p> --}}
-            {!!$vid5!!}
-          </div>
+          <ul class="c_videos video-testimony-grid">
+            <li class="v1 video video-testimony-item">
+              <div class="video-testimony-item__video to_viewright to_viewReset">
+                {!!$video!!}
+              </div>
+              <div class="video-testimony-item__text to_viewleft to_viewReset">
+                {!!$vid1!!}
+                <h6 class="pill">Storytelling</h6>
+              </div>
+            </li>
+            <li class="v2 video video-testimony-item video-testimony-item--reversed">
+              <div class="video-testimony-item__video to_viewleft to_viewReset">
+                {!!$video2!!}
+              </div>
+              <div class="video-testimony-item__text to_viewright to_viewReset">
+                {!!$vid2!!}
+                <h6 class="pill">Comerciales</h6>
+              </div>
+            </li>
+            <li class="v3 video video-testimony-item">
+              <div class="video-testimony-item__video to_viewright to_viewReset">
+                {!!$video3!!}
+              </div>
+              <div class="video-testimony-item__text to_viewleft to_viewReset">
+                {!!$vid3!!}
+                <h6 class="pill">Casos de éxito</h6>
+              </div>
+            </li>
+            <li class="v4 video video-testimony-item video-testimony-item--reversed">
+              <div class="video-testimony-item__video to_viewleft to_viewReset">
+                {!!$video4!!}
+              </div>
+              <div class="video-testimony-item__text to_viewright to_viewReset">
+                {!!$vid4!!}
+                <h6 class="pill">Animación</h6>
+              </div>
+            </li>
+            <li class="v5 video video-testimony-item">
+              <div class="video-testimony-item__video to_viewright to_viewReset">
+                {!!$video6!!}
+              </div>
+              <div class="video-testimony-item__text to_viewleft to_viewReset">
+                {!!$vid5!!}
+                <h6 class="pill">Producción</h6>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
