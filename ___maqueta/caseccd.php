@@ -16,7 +16,7 @@
         </div>
 
         <!-- info basic project  -->
-        
+
         <div class="py-lg-5 px-4">
           <div class="row justify-content-center info_basic py-lg-5 py-4">
             <div class="col-md-3 col-12 to_view to_viewReset">
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-3 col-12 px-md-5 info_list to_view to_viewReset py-md-0 py-4">
               <h5>INDUSTRIA</h5>
-              <p>Organización internacional 
+              <p>Organización internacional
               sin ánimo de lucro.</p>
               <h5>UBICACIÓN</h5>
               <p>Colombia</p>
@@ -37,7 +37,7 @@
               <p>Estrategia de comunicación. <br>Producción de contenido <br>audiovisual y gráfico. <br>Relaciones públicas. <br>Gestión en prensa.
             </div>
           </div>
-        </div> 
+        </div>
 
         <!-- results  -->
 
@@ -68,7 +68,7 @@
         </div>
 
         <!-- contexto -->
-        
+
         <div class="contexto py-lg-5 py-4 mb-5 px-lg-0 px-4 to_viewleft to_viewReset">
           <div class="p-lg-5 p-4">
             <h4>CONTEXTO</h2>
@@ -77,7 +77,7 @@
             <br>
             El programa opera en 11 municipios caracterizados por tener una amplia población migrante, estos son: Riohacha, Maicao, Cúcuta, Bucaramanga, Santa Marta, Cartagena, Barranquilla, Cali, Medellín, Bogotá, Pasto e Ipiales.</h4>
           </div>
-        </div> 
+        </div>
 
         <!-- galeria -->
 
@@ -173,7 +173,7 @@
         <div class="container_page px-0 my-lg-5 py-4 c_video_home to_view to_viewReset">
         <div class="text-center"><iframe width="100%" height="720" src="https://www.youtube.com/embed/hhbq2GJ-0z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
         </div>
-          
+
         </div>
         <div class="bg-gray-light">
           <?php include('form.php') ?>

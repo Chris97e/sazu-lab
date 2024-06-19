@@ -14,6 +14,9 @@
             <a href="mailto:mariana@sazulab.com" class="ico3">
               <img src="{{ asset('assets/front/images/ico3.svg') }}" alt="Mail">
             </a>
+            <a href="https://api.whatsapp.com/send/?phone=573006568714" target="_blank" class="ico3">
+              <img src="{{ asset('assets/front/images/ico4.png') }}" alt="whatsapp">
+            </a>
           </div>
         </div>
       </div>
