@@ -29,8 +29,8 @@ class ClientesController extends Controller
       $clientes = Clientes::find($request->id);
       $clientes->fill($data);
       if ($request->img) {
-        $fileName = time() . '_clientes_' . $request->img->getClientOriginalName();
-        $url = $request->file('img')->storeAs('multimedia/clientes', $fileName, 'public');
+        $fileName = $request->img->getClientOriginalName();
+        $url = $request->file('img')->storeAs('clientes', $fileName, 'public');
         $file_path = '/storage/' . $url;
         $clientes->img = $file_path;
       }
@@ -42,8 +42,8 @@ class ClientesController extends Controller
     } else {
       $clientes = Clientes::create($data);
       if ($request->img) {
-        $fileName = time() . '_clientes_' . $request->img->getClientOriginalName();
-        $url = $request->file('img')->storeAs('multimedia/clientes', $fileName, 'public');
+        $fileName = $request->img->getClientOriginalName();
+        $url = $request->file('img')->storeAs('clientes', $fileName, 'public');
         $file_path = '/storage/' . $url;
         $clientes->img = $file_path;
       }
