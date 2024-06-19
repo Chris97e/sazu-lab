@@ -13,11 +13,11 @@ $showFooter = true;
 <section class="p_interno">
   <div class="position-relative">
     <div class="padding_sections">
-      <div class="bg-gray-light pb-2">
-        <div class="pb-5">
+      <div class="bg-gray-light ">
+        <div class="fix-branding pb-1">
           <!-- hero -->
           <div class="container_page px-0">
-            <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-5">
+            <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-1">
               <div class="row position-relative z-10 px-3 pt-lg-4 pt-2">
                 <div class="col-xl-8 px-2 pt-lg-5 pt-4 info_estrategia_top">
                    {{-- <h2><i>Producimos</i></h2>  --}}

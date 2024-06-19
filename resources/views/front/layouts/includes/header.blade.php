@@ -14,7 +14,7 @@
             <a href="mailto:mariana@sazulab.com" class="ico3">
               <img src="{{ asset('assets/front/images/ico3.svg') }}" alt="Mail">
             </a>
-            <a href="https://api.whatsapp.com/send/?phone=573006568714" target="_blank" class="ico3">
+            <a href="https://api.whatsapp.com/send/?phone=573006568714" target="_blank" class="ico3 hide-on-mobile">
               <img src="{{ asset('assets/front/images/ico4.png') }}" alt="whatsapp">
             </a>
           </div>
@@ -25,7 +25,7 @@
     <a href="javascript:;" class="ico_menu" id="ico_menu">
       <div class="c_ico"></div>
     </a>
-    <nav id="menu">
+    <nav id="menu" class="drawer-menu">
       <ul>
         <li><a href="{{ url('/') }}">INICIO</a>  </li>
         <li><a href="{{ url('/estrategia') }}">ESTRATEGIA</a></li>

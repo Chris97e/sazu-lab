@@ -13,11 +13,11 @@ $showFooter = true;
 <section class="p_interno">
   <div class="position-relative">
     <div class="padding_sections">
-      <div class="bg-gray-light pb-2">
-        <div class="pb-5">
+      <div class="bg-gray-light ">
+        <div class="fix-contenido pb-1">
           <!-- hero -->
           <div class="container_page px-0">
-            <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-5">
+            <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-1">
               <div class="row position-relative z-10 px-3 pt-lg-5 pt-2">
                 <div class="col-xl-7 px-2 pt-lg-5 pt-4 info_estrategia_top">
                   {{-- <h2><i>Producimos</i></h2>
@@ -73,7 +73,9 @@ $showFooter = true;
           <ul class="c_videos video-testimony-grid">
             <li class="v1 video video-testimony-item">
               <div class="video-testimony-item__video to_viewright to_viewReset">
-                {!!$video!!}
+                <div class="video-testimony-item__video-holder">
+                  {!!$video!!}
+                </div>
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
                 {!!$vid1!!}
@@ -82,7 +84,9 @@ $showFooter = true;
             </li>
             <li class="v2 video video-testimony-item video-testimony-item--reversed">
               <div class="video-testimony-item__video to_viewleft to_viewReset">
-                {!!$video2!!}
+                <div class="video-testimony-item__video-holder">
+                  {!!$video2!!}
+                </div>
               </div>
               <div class="video-testimony-item__text to_viewright to_viewReset">
                 {!!$vid2!!}
@@ -91,7 +95,9 @@ $showFooter = true;
             </li>
             <li class="v3 video video-testimony-item">
               <div class="video-testimony-item__video to_viewright to_viewReset">
-                {!!$video3!!}
+                <div class="video-testimony-item__video-holder">
+                  {!!$video3!!}
+                </div>
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
                 {!!$vid3!!}
@@ -100,7 +106,9 @@ $showFooter = true;
             </li>
             <li class="v4 video video-testimony-item video-testimony-item--reversed">
               <div class="video-testimony-item__video to_viewleft to_viewReset">
-                {!!$video4!!}
+                <div class="video-testimony-item__video-holder">
+                  {!!$video4!!}
+                </div>
               </div>
               <div class="video-testimony-item__text to_viewright to_viewReset">
                 {!!$vid4!!}
@@ -109,7 +117,9 @@ $showFooter = true;
             </li>
             <li class="v5 video video-testimony-item">
               <div class="video-testimony-item__video to_viewright to_viewReset">
-                {!!$video6!!}
+                <div class="video-testimony-item__video-holder">
+                  {!!$video6!!}
+                </div>
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
                 {!!$vid5!!}

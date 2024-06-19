@@ -13,8 +13,8 @@ $showFooter = true;
 <section class="p_interno">
   <div class="position-relative">
     <div class="padding_sections">
-      <div class="bg-gray-light pb-2">
-        <div class="pb-5">
+      <div class="bg-gray-light ">
+        <div class="fix-strategia pb-1">
           <!-- hero -->
           <div class="container_page px-0">
             <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-5">
