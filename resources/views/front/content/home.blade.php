@@ -20,7 +20,7 @@
         <!-- content_hero -->
         <div class="container_page px-4 c_hero pt-xl-5 pt-4">
           <div class="position-relative z-10">
-            <div class="row no-gutters px-xl-5 px-lg-4 px-2">
+            <div class="row no-gutters px-xl-4 px-lg-4 px-2">
 
               <div class="col-xl-6 px-xl-5 pt-lg-5 pt-2">
 
@@ -147,8 +147,9 @@
 
           <!-- embed feed instagram -->
           <div class="my-5 py-lg-4 to_view to_viewReset text-center">
-            <div loading="lazy" class="ig_widget" data-mc-src="691e9d57-3aa4-4490-8537-f96df77365af#instagram"></div>
-            <script src="https://cdn2.woxo.tech/a.js#644c2ec5f7d7f4ae45cf5af1" async data-usrc></script>
+            {{-- <div loading="lazy" class="ig_widget" data-mc-src="691e9d57-3aa4-4490-8537-f96df77365af#instagram"></div>
+            <script src="https://cdn2.woxo.tech/a.js#644c2ec5f7d7f4ae45cf5af1" async data-usrc></script> --}}
+            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9e9653d757b65f398c8d1a6a02d9b29d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
           </div>
 
         </div>

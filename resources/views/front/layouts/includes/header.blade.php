@@ -15,7 +15,7 @@
               <img src="{{ asset('assets/front/images/ico3.svg') }}" alt="Mail">
             </a>
             <a href="https://api.whatsapp.com/send/?phone=573006568714" target="_blank" class="ico3 hide-on-mobile">
-              <img src="{{ asset('assets/front/images/ico4.png') }}" alt="whatsapp">
+              <img src="{{ asset('assets/front/images/ico5.svg') }}" alt="whatsapp">
             </a>
           </div>
         </div>

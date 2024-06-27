@@ -55,7 +55,7 @@ $showFooter = true;
             </div>
           </div>
           --}}
-          <div class="marquee m2">
+          <div class="marquee m2 fix-ticker">
             {{-- <h1>DOCUMENTALES - COMERCIALES - CAMPAÑAS - RRSS - VIDEO/FOTO PRODUCTO - CASOS DE ÉXITO - CORTOMETRAJES -
               ANIMACIONES -&nbsp;</h1> --}}
               {!!$marquee!!}
@@ -79,7 +79,6 @@ $showFooter = true;
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
                 {!!$vid1!!}
-                <h6 class="pill">Storytelling</h6>
               </div>
             </li>
             <li class="v2 video video-testimony-item video-testimony-item--reversed">
@@ -90,7 +89,6 @@ $showFooter = true;
               </div>
               <div class="video-testimony-item__text to_viewright to_viewReset">
                 {!!$vid2!!}
-                <h6 class="pill">Comerciales</h6>
               </div>
             </li>
             <li class="v3 video video-testimony-item">
@@ -101,7 +99,6 @@ $showFooter = true;
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
                 {!!$vid3!!}
-                <h6 class="pill">Casos de éxito</h6>
               </div>
             </li>
             <li class="v4 video video-testimony-item video-testimony-item--reversed">
@@ -112,18 +109,26 @@ $showFooter = true;
               </div>
               <div class="video-testimony-item__text to_viewright to_viewReset">
                 {!!$vid4!!}
-                <h6 class="pill">Animación</h6>
               </div>
             </li>
             <li class="v5 video video-testimony-item">
+              <div class="video-testimony-item__video to_viewright to_viewReset">
+                <div class="video-testimony-item__video-holder">
+                  {!!$video5!!}
+                </div>
+              </div>
+              <div class="video-testimony-item__text to_viewleft to_viewReset">
+                {!!$vid5!!}
+              </div>
+            </li>
+            <li class="v6 video video-testimony-item video-testimony-item--reversed">
               <div class="video-testimony-item__video to_viewright to_viewReset">
                 <div class="video-testimony-item__video-holder">
                   {!!$video6!!}
                 </div>
               </div>
               <div class="video-testimony-item__text to_viewleft to_viewReset">
-                {!!$vid5!!}
-                <h6 class="pill">Producción</h6>
+                {!!$vid6!!}
               </div>
             </li>
           </ul>

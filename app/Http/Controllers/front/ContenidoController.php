@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class ContenidoController extends Controller
 {
   public function index(Request $request)
-  { 
+  {
 
     // Geta data
     $texto_superior = Textos::where('ubicacion', 'contenido')->where('identificador', 'texto_superior')->first();
@@ -23,6 +23,7 @@ class ContenidoController extends Controller
     $vid3 = Textos::where('ubicacion', 'contenido')->where('identificador', 'vid3')->first();
     $vid4 = Textos::where('ubicacion', 'contenido')->where('identificador', 'vid4')->first();
     $vid5 = Textos::where('ubicacion', 'contenido')->where('identificador', 'vid5')->first();
+    $vid6 = Textos::where('ubicacion', 'contenido')->where('identificador', 'vid6')->first();
     $titulo2 = Textos::where('ubicacion', 'contenido')->where('identificador', 'titulo2')->first();
     $audiovisual = Textos::where('ubicacion', 'contenido')->where('identificador', 'audiovisual')->first();
     $video = Textos::where('ubicacion', 'contenido')->where('identificador', 'video')->first();
@@ -43,6 +44,7 @@ class ContenidoController extends Controller
     $data['vid3'] = $vid3->descripcion;
     $data['vid4'] = $vid4->descripcion;
     $data['vid5'] = $vid5->descripcion;
+    $data['vid6'] = $vid6->descripcion;
     $data['titulo2'] = $titulo2->descripcion;
     $data['video'] = $video->descripcion;
     $data['video2'] = $video2->descripcion;

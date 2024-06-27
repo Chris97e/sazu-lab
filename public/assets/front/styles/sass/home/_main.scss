@@ -1214,14 +1214,14 @@ footer{
     flex-direction: column;
     gap: 8px;
     width: 100%;
-    padding: 24px 24px 12px 24px;
+    padding: 24px;
     height: 100%;
     text-align: start;
     transition: opacity .7s, transform .7s;
 
     @include media-breakpoint-up(lg) {
       gap: 24px;
-      padding: 120px 40px 40px 40px;
+      padding: 120px 40px 80px 40px;
       width: 50%;
     }
 
@@ -1231,6 +1231,7 @@ footer{
       line-height: 1;
       font-size: 2.5rem;
       max-width: 40ch;
+      text-transform: capitalize;
 
       @include media-breakpoint-up(lg) {
         max-width: 40ch;
@@ -1242,6 +1243,7 @@ footer{
       font-style: normal;
       margin-bottom: 0;
       text-wrap: balance;
+      text-transform: capitalize;
 
       @include media-breakpoint-up(lg) {
         max-width: 40ch;
@@ -1333,5 +1335,11 @@ footer{
 .hide-on-mobile {
   @media (max-width: 360px) {
     display: none !important;
+  }
+}
+
+.fix-ticker {
+  h1 {
+    margin-bottom: 0px !important;
   }
 }

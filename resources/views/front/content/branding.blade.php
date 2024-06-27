@@ -52,7 +52,7 @@ $showFooter = true;
               <img src="{{ asset('assets/front/images/t3.png') }}" alt="Sazulab">
             </div>
           </div> --}}
-          <div class="marquee m2">
+          <div class="marquee m2 fix-ticker">
             {{-- <h1>IDENTIDAD DE MARCA - PACKAGING - POP - MERCH - ESTRATEGIA DE MARCA - REBRANDING</h1> --}}
             {!!$marquee!!}
           </div>

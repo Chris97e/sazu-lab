@@ -50,7 +50,7 @@ $showFooter = true;
             <img src="{{ asset('assets/front/images/t2.png') }}" alt="Sazulab">
           </div>
         </div> --}}
-        <div class="marquee">
+        <div class="marquee fix-ticker">
           {{-- <h1>INVESTIGACIÓN - MODELOS DE NEGOCIO - PROPUESTA DE VALOR - PILARES DE COMUNICACIÓN - AGILE COACHIING -
           </h1> --}}
           {!! $marquee !!}
