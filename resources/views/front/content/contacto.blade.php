@@ -6,7 +6,7 @@
 
 @extends('front/layouts/layout')
 
-@section('title', 'Contactanos')
+@section('title', 'Contáctanos')
 
 @section('layoutContent')
 
@@ -19,7 +19,7 @@
               <div class="row px-xl-4 px-2">
                 <div class="col-lg-6 pr-lg-5 pl-lg-5">
                   {{-- <h1>LET´S MAKE IT <strong>HAPPEN!</strong></h1>
-                  <h5><strong>¡Manos a la obra!</strong> Completa la siguiente información para empezar:</h5> --}} 
+                  <h5><strong>¡Manos a la obra!</strong> Completa la siguiente información para empezar:</h5> --}}
                   {!!$texto_superior!!}
                    <ul>
                     <li>
@@ -28,7 +28,7 @@
                       <p>Queremos oír tu voz! Ya sea para agendar una cita, cotizar o saber más información sobre nosotros
                       llámanos al +573006568714 y conversemos un rato.</p> --}}
                       {!!$texto_superior1!!}
-                    </li> 
+                    </li>
                     <li>
                       <img src="{{ asset('assets/front/images/c2.svg') }}" alt="Sazulab">
                       {{-- <h6>VISÍTANOS</h6>

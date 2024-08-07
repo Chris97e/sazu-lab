@@ -6,7 +6,7 @@
 
 @extends('front/layouts/layout')
 
-@section('title', 'Contactanos')
+@section('title', 'Contáctanos')
 
 @section('layoutContent')
 
@@ -35,11 +35,7 @@
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <!-- c_form -->
-
       </div>
     </div>
-
-
   </section>
 @endsection

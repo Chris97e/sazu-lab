@@ -158,6 +158,11 @@ Route::any('/branding', [BrandingController::class, 'index'])->name('branding');
 Route::any('/identidad-visual', [BrandingController::class, 'index'])->name('identidad-visual');
 Route::any('/contacto', [ContactoController::class, 'index'])->name('contacto');
 Route::any('/gracias', [FrontBaseController::class, 'index']);
+Route::get('/foo', function () {
+  Artisan::call('storage:link');
+  Artisan::call('config:cache');
+  Artisan::call('view:cache');
+});
 
 // All cases
 Route::any('{caso}', [CaseController::class, 'index'])->name('case');

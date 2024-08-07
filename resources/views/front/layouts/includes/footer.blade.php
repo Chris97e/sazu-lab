@@ -23,12 +23,11 @@
           <div class="d-flex social justify-content-lg-start">
 
             @foreach ($redes as $item)
-              <a href="{!! $item->enlace !!}" target="_blank" class="{!! $item->clase !!}"></a>
+              @if ($item)
+                <a href="{!! $item->enlace !!}" target="_blank" class="{!! $item->clase !!}"></a>
+              @endif
             @endforeach
 
-            {{-- <a href="https://www.instagram.com/sazu_lab/" target="_blank" class="icon-instagram"></a>
-            <a href="#" class="icon-tiktok"></a>
-            <a href="https://www.instagram.com/sazu_lab/" target="_blank" class="icon-linkedin"></a> --}}
           </div>
         </div>
       </div>
