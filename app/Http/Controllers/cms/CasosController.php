@@ -53,6 +53,8 @@ class CasosController extends Controller
         'img_left' => '',
         'img_right' => '',
         'iframe' => '<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/PF9pso5AAFk" width="100%" height="720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></p>',
+        'mision_img' => '',
+        'mision_text' => '<h5>Proponer <strong style="color: #5b4cff;">una estrategia de comunicación y un plan de acción</strong> que acompañe la implementación de contenidos para <strong style="color: #5b4cff;">potenciar</strong> la protección de derechos de la población migrante venezolana, <strong style="color: #5b4cff;">la cohesión comunitaria y la seguridad ciudadana.</strong></h5>',
       ]);
     }
     $this->data['edit'] = $casos;

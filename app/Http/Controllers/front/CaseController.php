@@ -25,12 +25,12 @@ class CaseController extends Controller
 
     $card = Cards::where('url', $request->caso)->first();
     if (!isset($card->id)) {
-      // $this->redirectToHome();
+      $this->redirectToHome();
     }
 
     $caso = Casos::where('id_cards', $card->id)->first();
     if (!isset($caso->id)) {
-      // $this->redirectToHome();
+      $this->redirectToHome();
     }
 
     // Set data

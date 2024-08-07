@@ -102,7 +102,7 @@ $showFooter = true;
                 <h5>A partir de la estrategia creamos marcas poderosas, <strong><span style="color: #5B4CFF ;">difíciles
                       de scarse de la cabeza.</span></strong></h5> -->
 
-                <a href="http://localhost/git/site-sazulab/public/contacto" class="btn_nuestra_mision btn_contact" id="btn_mision">
+                <a href="{{ url('/contacto') }}" class="btn_nuestra_mision btn_contact" id="btn_mision">
                   <div class="c_boton">
                     <span class="resplandor"></span>
                     <h3>CONTÁCTANOS</h3>
@@ -171,7 +171,7 @@ $showFooter = true;
                         </div>
                       </div>
                       <div class="circle_animate">
-                        <img src="{{ asset('assets/front/images/diseño.svg') }}" alt="Sazulab" class="">
+                        <img src="{{ asset('assets/front/images/diseno.svg') }}" alt="Sazulab" class="">
                       </div>
                     </div>
                   </div>

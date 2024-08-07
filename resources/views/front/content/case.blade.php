@@ -96,17 +96,11 @@
               </div>
               <div class="col-md-6 to_viewleft to_viewReset pb-md-0 pb-5 mb-md-0 mb-5">
                 <div class="info_intro px-md-0 px-4">
-                  <img src="{{ asset('assets/front/images/frase.svg') }}" alt="Sazulab">
+                  <img src="{{ asset($caso->mision_img) }}" alt="Sazulab">
                 </div>
                 <div class="info_mision p-lg-5 p-4">
                   <h4>NUESTRA MISIÓN</h4>
-                  {!! $nuestra_mision !!}
-                  {{-- <h5>Crear una <strong style="color:#5B4CFF;">estrategia de comunicación robusta,</strong> coherente y
-                    consistente a través de un <strong style="color:#5B4CFF;">entendimiento profundo de las necesidades
-                      y aspiraciones</strong> de los jóvenes talentos tech en Colombia, para crear una oferta de valor
-                    atractiva como marca empleadora por medio de la <strong style="color:#5B4CFF;">implementación de
-                      contenidos</strong> que sigan los valores corporativos y los lineamientos de comunicación
-                    establecidos. </h5> --}}
+                  {!! $caso->mision_text !!}
                 </div>
               </div>
             </div>

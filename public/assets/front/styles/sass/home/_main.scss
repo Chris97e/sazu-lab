@@ -878,16 +878,6 @@ footer{
 }
 
 
-@include media-breakpoint-up(md) {
-
-
-}
-
-@include media-breakpoint-up(sm) {
-
-}
-
-
 @include media-breakpoint-down(lg) {
 
   .info_basic{
@@ -1341,5 +1331,28 @@ footer{
 .fix-ticker {
   h1 {
     margin-bottom: 0px !important;
+  }
+}
+
+li a.fix-link-banner {
+
+  @media (max-width: 540px) {
+    margin-top: -10px;
+  }
+
+  @include media-breakpoint-up(sm) {
+    white-space: nowrap;
+  }
+
+  &::after {
+    @media (max-width: 540px) {
+      top: 10px;
+    }
+  }
+
+  &::before {
+    @media (max-width: 540px) {
+      top: 22px;
+    }
   }
 }

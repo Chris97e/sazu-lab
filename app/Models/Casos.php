@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * @file               : Casos.php
- * @brief              : Model para acceder a los datos de la tabla casos - Generador de modulos vercion 3.4 
- * @version            : 3.4 
+ * @brief              : Model para acceder a los datos de la tabla casos - Generador de modulos vercion 3.4
+ * @version            : 3.4
  * @author             : <home> / http://homesas.co
  * @message            : Tarde o temprano la disciplina vence a la inteligencia
  */
@@ -31,6 +31,8 @@ class Casos extends Model
     "img_left",
     "img_right",
     "iframe",
+    "mision_img",
+    "mision_text"
   );
 
   public function test()
@@ -41,7 +43,7 @@ class Casos extends Model
   /* public function exampleOnToMany(){
     return $this->hasMany(ClassName::class, "foreign_key", "local_key");
   } */
-    
+
   public function cards()
   {
     return $this->belongsTo(Cards::class, "id_cards");
