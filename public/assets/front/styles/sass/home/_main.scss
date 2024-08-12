@@ -1326,6 +1326,7 @@ footer{
   @media (max-width: 360px) {
     display: none !important;
   }
+
 }
 
 .fix-ticker {
@@ -1355,4 +1356,8 @@ li a.fix-link-banner {
       top: 22px;
     }
   }
+}
+
+.secret-test {
+  border: 1px solid transparent;
 }

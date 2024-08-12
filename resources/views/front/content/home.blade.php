@@ -147,9 +147,7 @@
 
           <!-- embed feed instagram -->
           <div class="my-5 py-lg-4 to_view to_viewReset text-center">
-            {{-- <div loading="lazy" class="ig_widget" data-mc-src="691e9d57-3aa4-4490-8537-f96df77365af#instagram"></div>
-            <script src="https://cdn2.woxo.tech/a.js#644c2ec5f7d7f4ae45cf5af1" async data-usrc></script> --}}
-            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/9e9653d757b65f398c8d1a6a02d9b29d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/9e9653d757b65f398c8d1a6a02d9b29d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
           </div>
 
         </div>
