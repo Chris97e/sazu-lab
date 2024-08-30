@@ -31,6 +31,7 @@ use App\Http\Controllers\front\FrontBaseController;
 use App\Http\Controllers\front\HomeController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
 |--------------------------------------------------------------------------
@@ -150,19 +151,29 @@ Route::middleware('verify.cms.login')->prefix('cms')->name('cms.')->group(functi
   // https://laravel.com/docs/9.x/controllers#resource-controllers
 });
 
-// Routes for frontend
-Route::any('/', [HomeController::class, 'index'])->name('home');
-Route::any('/estudio-creativo', [ContenidoController::class, 'index'])->name('estudio-creativo');
-Route::any('/estrategia', [EstrategiaController::class, 'index'])->name('estrategia');
-Route::any('/branding', [BrandingController::class, 'index'])->name('branding');
-Route::any('/identidad-visual', [BrandingController::class, 'index'])->name('identidad-visual');
-Route::any('/contacto', [ContactoController::class, 'index'])->name('contacto');
-Route::any('/gracias', [FrontBaseController::class, 'index']);
+// Agrupamos las rutas en el grupo de localización
+Route::group(
+    [
+      'prefix' => LaravelLocalization::setLocale(),
+      'middleware' => ['localeSessionRedirect', 'localizationRedirect']
+    ],
+    function() {
+        // Routes for frontend
+        Route::any('/', [HomeController::class, 'index'])->name('home');
+        Route::any('/estudio-creativo', [ContenidoController::class, 'index'])->name('estudio-creativo');
+        Route::any('/estrategia', [EstrategiaController::class, 'index'])->name('estrategia');
+        Route::any('/branding', [BrandingController::class, 'index'])->name('branding');
+        Route::any('/identidad-visual', [BrandingController::class, 'index'])->name('identidad-visual');
+        Route::any('/contacto', [ContactoController::class, 'index'])->name('contacto');
+        Route::any('/gracias', [FrontBaseController::class, 'index']);
+
+        // All cases
+        Route::any('{caso}', [CaseController::class, 'index'])->name('case');
+    }
+);
+
 Route::get('/foo', function () {
   Artisan::call('storage:link');
   Artisan::call('config:cache');
   Artisan::call('view:cache');
 });
-
-// All cases
-Route::any('{caso}', [CaseController::class, 'index'])->name('case');

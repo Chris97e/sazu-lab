@@ -6,7 +6,7 @@
 
 @extends('front/layouts/layout')
 
-@section('title', 'Bienvenido')
+@section('title', __('messages.welcome'))
 
 @section('layoutContent')
 
@@ -24,7 +24,10 @@
 
               <div class="col-xl-6 px-xl-5 pt-lg-5 pt-2">
 
-                {!! $texto_superior !!}
+                {{-- {!! $texto_superior !!} --}}
+                <h4 style="line-height: 1;">{{ __('messages.home_banner_1') }}</h4>
+                <h3 style="line-height: 1.1; max-width:500px;"><span style="font-size: 24pt;"><strong>{{ __('messages.home_banner_2') }}</strong></span></h3>
+                <h5 style="line-height: 1.3;"><em>{!! __('messages.home_banner_3') !!}</em></h5>
 
               </div>
 
@@ -35,9 +38,9 @@
               <div class="col-lg-6 pt-4">
                 <div class="m_home">
                   <ul>
-                    <li><a href="{{ url('/estrategia') }}">ESTRATEGIA</a></li>
-                    <li><a class="fix-link-banner" href="{{ url('/estudio-creativo') }}">ESTUDIO CREATIVO</a></li>
-                    <li><a href="{{ url('/branding') }}">BRANDING</a></li>
+                    <li><a href="{{ url('/estrategia') }}">{{ __('messages.home_strategy') }}</a></li>
+                    <li><a class="fix-link-banner" href="{{ url('/estudio-creativo') }}">{{ __('messages.home_creative') }}</a></li>
+                    <li><a href="{{ url('/branding') }}">{{ __('messages.home_branding') }}</a></li>
                   </ul>
                 </div>
               </div>
@@ -71,7 +74,7 @@
         <!-- content clients -->
         <div class="c_slider_our {{-- mt-4 --}} mt-5">
           <div class="text-center c_tit ">
-            <h2>NUESTROS <strong>CLIENTES</strong></h2>
+            <h2>{!! __('messages.home_clients') !!}</h2>
           </div>
           <div class="slider_clients py-5 my-lg-5 to_view to_viewReset">
 
@@ -87,7 +90,7 @@
         <!-- content our work -->
         <div class="{{-- py-lg-5 py-4 --}} mt-5">
           <div class="text-center c_tit  to_view to_viewReset">
-            <h2>CASOS DE <strong>ESTUDIO</strong></h2>
+            <h2>{!! __('messages.home_studies') !!}</h2>
           </div>
           {{-- External file include --}}
           @include('front/layouts/includes/slider_casos')
@@ -103,7 +106,7 @@
         <!-- content our team-->
         <div class="mt-5">
           <div class="text-center c_tit to_view to_viewReset">
-            <h2>NUESTRO <strong>EQUIPO</strong></h2>
+            <h2>{!! __('messages.home_team') !!}</h2>
           </div>
           <div class="row no-gutters py-5">
 
@@ -134,7 +137,7 @@
         <div class="mt-5">
 
           <div class="text-center c_tit to_view to_viewReset">
-            <h2>SÍGUENOS <strong>AQUÍ</strong></h2>
+            <h2>{!! __('messages.home_follow') !!}</h2>
           </div>
 
           <div class="d-flex social to_view to_viewReset">

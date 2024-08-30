@@ -8,8 +8,8 @@
 
           <a href="{{ url('/' . $item->url) }}" class="c_card">
             <img src="{{ asset($item->img_listado) }}" alt="Sazulab">
-            <h5>{!! $item->titulo !!}</h5>
-            <p>{!! $item->descripcion !!}</p>
+            <h5>{!!  __($item->titulo) !!}</h5>
+            <p>{!! __($item->descripcion) !!}</p>
           </a>
 
         </div>

@@ -27,11 +27,11 @@
     </a>
     <nav id="menu" class="drawer-menu">
       <ul>
-        <li><a href="{{ url('/') }}">INICIO</a>  </li>
-        <li><a href="{{ url('/estrategia') }}">ESTRATEGIA</a></li>
-        <li><a href="{{ url('/estudio-creativo') }}">ESTUDIO CREATIVO</a></li>
-        <li><a href="{{ url('/branding') }}">BRANDING</a></li>
-        <li><a href="{{ url('/contacto') }}">CONTÁCTANOS</a></li>
+        <li><a href="{{ url('/') }}">{{ __('messages.home') }}</a>  </li>
+        <li><a href="{{ url('/estrategia') }}">{{ __('messages.home_strategy') }}</a></li>
+        <li><a href="{{ url('/estudio-creativo') }}">{{ __('messages.home_creative') }}</a></li>
+        <li><a href="{{ url('/branding') }}">{{ __('messages.home_branding') }}</a></li>
+        <li><a href="{{ url('/contacto') }}">{{ __('messages.home_contact') }}</a></li>
       </ul>
 
     </nav>

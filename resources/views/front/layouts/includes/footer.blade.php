@@ -32,21 +32,20 @@
         </div>
       </div>
       <div class="text-center mt-lg-5 pt-5">
-        <a href="{{ url('/contacto') }}" class="btn_outline">TRABAJEMOS JUNTOS</a>
+        <a href="{{ url('/contacto') }}" class="btn_outline">{{ __('messages.footer_title') }}</a>
       </div>
       <div class="row justify-content-center info_footer py-5">
         <div class="border_right pr-md-5">
-          <h5>SERVICIOS</h5>
+          <h5>{{ __('messages.footer_services') }}</h5>
           <ul>
-            <li><a href="{{ url('/estrategia') }}">Estrategia</a></li>
-            <li><a href="{{ url('/estudio-creativo') }}">Estudio Creativo</a></li>
-            <li><a href="{{ url('/branding') }}">Identidad Visual</a></li>
+            <li><a href="{{ url('/estrategia') }}">{{ __('messages.home_strategy') }}</a></li>
+            <li><a href="{{ url('/estudio-creativo') }}">{{ __('messages.home_creative') }}</a></li>
+            <li><a href="{{ url('/branding') }}">{{ __('messages.home_branding') }}</a></li>
           </ul>
         </div>
         <div class="pl-md-5">
-          <h5>CONTÁCTANOS</h5>
-          <p>Tel: 3006568714 <br>Mail: <a href="mailto:Comercial@sazulab.com">mariana@sazulab.com</a><br>Dir: Cra 10 #
-            96 - 79</p>
+          <h5>{{ __('messages.footer_contact') }}</h5>
+          <p>{{ __('messages.footer_phone') }} <br>{{ __('messages.footer_mail') }} <a href="mailto:Comercial@sazulab.com">mariana@sazulab.com</a><br>{{ __('messages.footer_address') }}</p>
         </div>
       </div>
     </div>

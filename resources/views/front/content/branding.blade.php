@@ -6,7 +6,7 @@ $showFooter = true;
 
 @extends('front/layouts/layout')
 
-@section('title', 'Branding')
+@section('title', __('messages.meta_branding'))
 
 @section('layoutContent')
 
@@ -20,22 +20,11 @@ $showFooter = true;
             <div class="pattern_square px-xl-5 px-lg-4 px-4 pb-1">
               <div class="row position-relative z-10 px-3 pt-lg-4 pt-2">
                 <div class="col-xl-8 px-2 pt-lg-5 pt-4 info_estrategia_top">
-                   {{-- <h2><i>Producimos</i></h2>  --}}
-
-                  {{--<h2><i>Para empresas que quieren <br><strong style="color:#5B4CFF;">impactar el mundo.</strong></i>
-                  </h2>  --}}
-                  {!!$texto_superior!!}
+                  {{-- {!!$texto_superior!!} --}}
+                  <h2 style="line-height: 1;"><em>{{ __('messages.branding_head_1') }}</em></h2>
+                  <h1 style="line-height: 1;"><span >{!! __('messages.branding_head_2') !!}</span></h1>
+                  <h2 style="line-height: 1;"><em>{!! __('messages.branding_head_3') !!}</em></h2>
                 </div>
-                <!--    <div class="col-xl-5 pt-lg-5 pt-4 px-2">
-                  <div class="ani__move_y_05 ani__infinite ani__duration-3s ani__alternate z-1 pb-lg-5 pb-4">
-                    <h4><strong style="color:#5B4CFF;">“El mejor día de mi vida,</strong><br> fue cuando conocí a Sazú”.
-                      </h3>
-                  </div>
-                  <div class="offset-lg-3 ani__move_y_05 ani__infinite ani__duration-4s ani__alternate z-1 tama_frase2">
-                    <h2>“Amo a Sazú <strong style="color:#5B4CFF;">con mi vida,</strong> me solucionaron la existencia”.
-                    </h2>
-                  </div>
-                </div>-->
               </div>
             </div>
           </div>
@@ -44,17 +33,9 @@ $showFooter = true;
       <!-- ticker -->
       <div>
         <div class="c_ticker2">
-        {{--<div class="container_page position-relative mx-auto">
-            <div class="t1">
-              <img src="{{ asset('assets/front/images/t4.png') }}" alt="Sazulab">
-            </div>
-            <div class="t2">
-              <img src="{{ asset('assets/front/images/t3.png') }}" alt="Sazulab">
-            </div>
-          </div> --}}
           <div class="marquee m2 fix-ticker">
-            {{-- <h1>IDENTIDAD DE MARCA - PACKAGING - POP - MERCH - ESTRATEGIA DE MARCA - REBRANDING</h1> --}}
-            {!!$marquee!!}
+            <h1>{{ __('messages.branding_marquee') }}</h1>
+            {{-- {!!$marquee!!} --}}
           </div>
         </div>
       </div>
@@ -72,7 +53,8 @@ $showFooter = true;
           <div class="item to_view to_viewReset {!! $item->clase !!}">
             <div class="item-content">
               <div class="info">
-                {!! $item->descripcion !!}
+                {!! __($item->descripcion) !!}
+                {{-- {!! $item->descripcion !!} --}}
               </div>
               <img src="{{ asset($item->imagen) }}" />
             </div>
@@ -89,9 +71,9 @@ $showFooter = true;
       <!-- process branding -->
       <div class="pt-5">
         <div class="text-center c_tit to_view to_viewReset">
-          {{-- <h2>PROCESO DE <strong>IDENTIDAD</strong></h2>
-          <h4><i>¿Qué puedes esperar en un <br> proyecto como este?</i></h4> --}}
-          {!!$titulo1!!}
+          <h2>{!! __('messages.branding_proccess') !!}</h2>
+          <h4><em>{!! __('messages.branding_proccess_des') !!}</em></h4>
+          {{-- {!!$titulo1!!} --}}
         </div>
         <div class="container_page px-0 pt-0 ">
           <div class="pattern_branding pl-lg-5 pl-4 pt-lg-5">
@@ -105,7 +87,7 @@ $showFooter = true;
                 <a href="{{ url('/contacto') }}" class="btn_nuestra_mision btn_contact" id="btn_mision">
                   <div class="c_boton">
                     <span class="resplandor"></span>
-                    <h3>CONTÁCTANOS</h3>
+                    <h3>{!! __('messages.home_contact') !!}</h3>
                   </div>
                 </a>
                 <!--  -->
@@ -113,17 +95,14 @@ $showFooter = true;
               <div class="col-xl-7 list_articles_branding pr-0 ">
                 <article class="to_viewleft to_viewReset">
                   <div>
-                    <h3>ENTENDIMIENTO</h3>
+                    <h3>{!! __('messages.branding_card_1_ti') !!}</h3>
                     <div class="card_bra">
                       <img src="{{ asset('assets/front/images/bombillo.gif') }}" alt="Sazulab" class="gif">
                       <div class="card_intro">
                         <span>1.</span>
                         <div>
-                          {{-- <h2>ENTENDIMIENTO</h2>
-                          <p>Entendemos el negocio a profundidad. Investigamos sus audiencias, entendemos las
-                            necesidades de negocio y analizamos el mercado para poder tomar decisiones estratégicas.
-                            --}}
-                            {!!$text1!!}
+                            {{-- {!!$text1!!} --}}
+                            {!! __('messages.branding_card_1_de') !!}
                           </p>
                         </div>
                       </div>
@@ -136,17 +115,14 @@ $showFooter = true;
 
                 <article class="to_viewleft to_viewReset">
                   <div>
-                    <h3>ESTRATEGIA</h3>
+                    <h3>{!! __('messages.branding_card_2_ti') !!}</h3>
                     <div class="card_bra">
                       <img src="{{ asset('assets/front/images/ajedrez.gif') }}" alt="Sazulab" class="gif">
                       <div class="card_intro">
                         <span>2.</span>
                         <div>
-                          {{-- <h2>ESTRATEGIA</h2>
-                          <p>Facilitamos la toma de decisiones de estrategia de marca, ayudando a nuestros clientes a
-                            definir una posición única y valiosa en el mercado que les permita diferenciarse y potenciar
-                            su oferta de valor. </p> --}}
-                          {!!$text2!!}
+                          {{-- {!!$text2!!} --}}
+                          {!! __('messages.branding_card_2_de') !!}
                         </div>
                       </div>
                       <div class="circle_animate">
@@ -158,16 +134,14 @@ $showFooter = true;
 
                 <article class="to_viewleft to_viewReset">
                   <div>
-                    <h3>DISEÑO</h3>
+                    <h3>{!! __('messages.branding_card_3_ti') !!}</h3>
                     <div class="card_bra">
                       <img src="{{ asset('assets/front/images/2.gif') }}" alt="Sazulab" class="gif">
                       <div class="card_intro">
                         <span>3.</span>
                         <div>
-                          {{-- <h2>DISEÑO</h2>
-                          <p>Diseñamos una identidad visual poderosa; coherente con la estrategia y que se adapte a los
-                            espacios donde vivirá la marca.</p> --}}
-                          {!!$text3!!}
+                          {{-- {!!$text3!!} --}}
+                          {!! __('messages.branding_card_3_de') !!}
                         </div>
                       </div>
                       <div class="circle_animate">
@@ -179,17 +153,14 @@ $showFooter = true;
 
                 <article class="to_viewleft to_viewReset">
                   <div>
-                    <h3>IMPLEMENTACIÓN</h3>
+                    <h3>{!! __('messages.branding_card_4_ti') !!}</h3>
                     <div class="card_bra">
                       <img src="{{ asset('assets/front/images/1.gif') }}" alt="Sazulab" class="gif">
                       <div class="card_intro">
                         <span>4.</span>
                         <div>
-                          {{-- <h2>IMPLEMENTACIÓN</h2>
-                          <p>Planeamos y ejecutamos el despliegue de la marca. Priorizamos canales, mensajes y
-                            contenido, para construir el posicionamiento estratégico deseado. Somos tus aliados en el
-                            proceso de desarrollar una marca potente y coherente. </p> --}}
-                          {!!$text4!!}
+                          {{-- {!!$text4!!} --}}
+                          {!! __('messages.branding_card_4_de') !!}
                         </div>
                       </div>
                       <div class="circle_animate">
@@ -211,8 +182,8 @@ $showFooter = true;
           <div class="col-lg- to_view to_viewReset">
             <div class="c_services_list">
               <img src="{{ asset($item->imagen) }}" alt="Sazulab">
-              <h5>{!! $item->titulo !!}</h5>
-              {!! $item->descripcion !!}
+              <h5>{!! __($item->titulo) !!}</h5>
+              {!! __($item->descripcion) !!}
             </div>
           </div>
           @endforeach
@@ -222,7 +193,7 @@ $showFooter = true;
       <!-- content our work -->
       <div class="py-5">
         <div class="text-center c_tit to_view to_viewReset">
-          <h2>CASOS DE <strong>ESTUDIO</strong></h2>
+          <h2>{!! __('messages.home_studies') !!}</h2>
         </div>
 
         {{-- External file include --}}

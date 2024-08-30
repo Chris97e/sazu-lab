@@ -22,7 +22,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>@yield('title') | Sazú Lab | Consultoría y Producción Creativa para Marcas</title>
+  <title>@yield('title') | Sazú Lab | {!! __('messages.meta_head') !!}</title>
   {{-- <meta name="description" content="@yield('description')"> --}}
   <meta name="description"
     content="En Sazú transformamos tu empresa con estrategias de impacto y producción de comunicaciones. Somos expertos en crear relaciones reales entre marcas y audiencias. ¡Descubre cómo potenciar tu marca con nosotros!">
