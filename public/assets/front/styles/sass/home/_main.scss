@@ -1361,3 +1361,12 @@ li a.fix-link-banner {
 .secret-test {
   border: 1px solid transparent;
 }
+
+.c_services_list ul {
+  padding: 0px;
+  margin-left: 20px;
+
+  li {
+    list-style-type: disc;
+  }
+}

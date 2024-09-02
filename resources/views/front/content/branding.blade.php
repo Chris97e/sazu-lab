@@ -107,7 +107,7 @@ $showFooter = true;
                         </div>
                       </div>
                       <div class="circle_animate">
-                        <img src="{{ asset('assets/front/images/entendimiento.svg') }}" alt="Sazulab" class="">
+                        <img src="{{ asset(__('messages.branding_image_1')) }}" alt="Sazulab" class="">
                       </div>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ $showFooter = true;
                         </div>
                       </div>
                       <div class="circle_animate">
-                        <img src="{{ asset('assets/front/images/estrategia.svg') }}" alt="Sazulab" class="">
+                        <img src="{{asset(__('messages.branding_image_2')) }}" alt="Sazulab" class="">
                       </div>
                     </div>
                   </div>
@@ -145,7 +145,7 @@ $showFooter = true;
                         </div>
                       </div>
                       <div class="circle_animate">
-                        <img src="{{ asset('assets/front/images/diseno.svg') }}" alt="Sazulab" class="">
+                        <img src="{{ asset(__('messages.branding_image_3')) }}" alt="Sazulab" class="">
                       </div>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ $showFooter = true;
                         </div>
                       </div>
                       <div class="circle_animate">
-                        <img src="{{ asset('assets/front/images/implementacion.svg') }}" alt="Sazulab" class="">
+                        <img src="{{ asset(__('messages.branding_image_4')) }}" alt="Sazulab" class="">
                       </div>
                     </div>
                   </div>

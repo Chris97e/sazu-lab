@@ -194,7 +194,10 @@
     'case_3_result_2_tit' => '+450 Piezas',
     'case_3_result_3_tit' => 'Estrategia',
     'case_3_result_4_tit' => '+30 Videos',
-
+    'branding_image_1' => 'assets/front/images/entendimiento.svg',
+    'branding_image_2' => 'assets/front/images/estrategia.svg',
+    'branding_image_3' => 'assets/front/images/design.png',
+    'branding_image_4' => 'assets/front/images/implementacion.svg',
 
   ]
 ?>
